@@ -1,0 +1,10 @@
+a=[1,2,3,4,5]
+a
+
+#remove
+a.remove(2)
+a
+
+#pop
+a.pop(2)
+a
