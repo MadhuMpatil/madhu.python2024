@@ -1,0 +1,7 @@
+#pop
+a.pop(2)
+a
+
+#accessing items in tuple
+print(a[0])
+
