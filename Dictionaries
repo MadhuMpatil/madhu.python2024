@@ -1,0 +1,21 @@
+#creating a dictionary
+student={
+    "name" :"Alice",
+    "age"  :28,
+    "marks":85
+}
+
+#Accessing
+print(student["name"])
+
+#modifying
+student["age"]=21
+student
+
+#adding
+student["grade"]="A"
+student
+
+#removing
+del student["marks"]
+student
