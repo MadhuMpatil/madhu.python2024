@@ -1,0 +1,7 @@
+start=int(input("enter start range:"))
+end=int(input("enter end range:"))
+evensum=0
+for num in range(start,end+1):
+  if num%2==0:
+    evensum+=num
+print("sum of even numbers:",evensum)
