@@ -1,0 +1,11 @@
+#creating a list
+a=[1,2,3,4,5]
+print(a)
+
+#accessing items
+print(a[3])
+print(a[-1])
+
+#modifying items
+a[0]=19
+print(a)
