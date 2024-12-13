@@ -1,0 +1,7 @@
+#variable length argument
+#** keyword argument
+def rajesh(**numbers):
+    for key, value in numbers.items():
+        print(f"{key}: {value}")
+
+greet(name="rajesh", age=25, city="New York")
