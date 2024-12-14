@@ -1,0 +1,22 @@
+file=open("/content/madhu.txt","r")
+
+file=open("/content/madhu.txt","r")
+content=file.read()
+print(content)
+file.close
+
+file=open("/content/madhu.txt","w")
+file.write("hello,world!\n")
+file.close()
+
+file=open("/content/madhu.txt","a")
+file.write("this is an append line.\n")
+file.close()
+
+with open("/content/madhu.txt","r")as file:
+  content=file.read()
+  print(content)
+
+with open("/content/dog.jpg","rb")as file:
+  data=file.read()
+
