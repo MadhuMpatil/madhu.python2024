@@ -1,0 +1,7 @@
+file=open("/content/madhu.txt","r")
+count_words=0
+for line in file:
+  words=line.split()
+  count_words+=len(words)
+print("number of words:",count_words)
+file.close()
